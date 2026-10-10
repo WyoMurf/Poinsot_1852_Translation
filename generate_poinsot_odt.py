@@ -8,7 +8,7 @@ ITALIC = uno.Enum('com.sun.star.awt.FontSlant', 'ITALIC')
 NONE = uno.Enum('com.sun.star.awt.FontSlant', 'NONE')
 AS_CHAR = uno.Enum('com.sun.star.text.TextContentAnchorType', 'AS_CHARACTER')
 
-PORT = 2035
+PORT = 2049
 soffice_cmd = [
     '/opt/libreoffice26.2/program/soffice',
     '--headless',
@@ -51,17 +51,26 @@ try:
     def is_math_formula(expr):
         return any(op in expr for op in MATH_OPS)
 
-    def insert_formula_object(cursor, expr):
+    def insert_formula_object(cursor, expr, is_display=False):
         expr = expr.strip()
         if not expr:
             return
+        
+        # Scale base font size so fractions match 12pt body text
+        if is_display:
+            target_sz = 15  # 15pt for display equations
+        elif 'over' in expr:
+            target_sz = 14  # 14pt for inline fractions
+        else:
+            target_sz = 13  # 13pt for standard inline formulas
+        
+        formula_str = f"size {target_sz} {{ {expr} }}"
         try:
             f_obj = doc.createInstance('com.sun.star.text.TextEmbeddedObject')
             f_obj.CLSID = MATH_CLSID
             f_obj.AnchorType = AS_CHAR
             text.insertTextContent(cursor, f_obj, False)
-            f_obj.Model.Formula = expr
-            # Apply true visual geometry so fractions are not compressed vertically!
+            f_obj.Model.Formula = formula_str
             vis = f_obj.Model.getVisualAreaSize(1)
             if vis.Width > 0 and vis.Height > 0:
                 f_obj.setSize(vis)
@@ -165,7 +174,7 @@ try:
                 for f_idx, fb in enumerate(formula_blocks):
                     if f_idx > 0:
                         text.insertString(cursor, ',   ', False)
-                    insert_formula_object(cursor, fb)
+                    insert_formula_object(cursor, fb, is_display=True)
                 text.insertString(cursor, '\n', False)
             cursor.ParaTopMargin = 0
             cursor.ParaBottomMargin = 0
@@ -180,7 +189,7 @@ try:
             if part.startswith('`') and part.endswith('`'):
                 expr = part[1:-1].strip()
                 if is_math_formula(expr):
-                    insert_formula_object(cursor, expr)
+                    insert_formula_object(cursor, expr, is_display=False)
                 else:
                     cursor.CharPosture = ITALIC
                     text.insertString(cursor, expr, False)
@@ -194,12 +203,16 @@ try:
     doc.unlockControllers()
 
     out_file = '/home/murf/Poinsot_Translation/Poinsot_Translation.odt'
-    print(f"Saving final document to {out_file}...")
+    tmp_out = '/home/murf/Poinsot_Translation/Poinsot_Translation_new.odt'
+    if os.path.exists(tmp_out):
+        os.remove(tmp_out)
+    print(f"Saving document to {tmp_out}...")
     t_save = time.time()
-    out_url = uno.systemPathToFileUrl(os.path.abspath(out_file))
+    out_url = uno.systemPathToFileUrl(os.path.abspath(tmp_out))
     doc.storeToURL(out_url, ())
-    print(f"Saved in {time.time()-t_save:.1f}s. Document size: {os.path.getsize(out_file):,} bytes.")
     doc.close(True)
+    os.replace(tmp_out, out_file)
+    print(f"Saved in {time.time()-t_save:.1f}s. Document size: {os.path.getsize(out_file):,} bytes.")
 
 finally:
     proc.terminate()
