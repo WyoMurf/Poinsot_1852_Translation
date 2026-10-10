@@ -120,13 +120,13 @@ V. — On couples of rotations.
 
 ![Fig. 8](figures/fig_08.png)
 
-12. Two rotations {p} and {-p}, equal and opposite in direction, about two parallel axes, together form what I call a couple of rotations: it can be seen a priori that such a couple is irreducible, or that it forms, so to speak, a rotation sui generis, which can never be reduced to a simple rotation about any axis whatsoever.
+12. Two rotations `p` and `-p`, equal and opposite in direction, about two parallel axes, together form what I call a couple of rotations: it can be seen a priori that such a couple is irreducible, or that it forms, so to speak, a rotation sui generis, which can never be reduced to a simple rotation about any axis whatsoever.
 
-The movement resulting from a couple of rotations {p} and {-p} is a pure translation of all points of the body along lines perpendicular to the plane of this couple, and with a common velocity measured by the moment of the couple, that is to say, by the product {p D} of one {p} of the two rotations, multiplied by the distance {D} separating their parallel axes.
+The movement resulting from a couple of rotations `p` and `-p` is a pure translation of all points of the body along lines perpendicular to the plane of this couple, and with a common velocity measured by the moment of the couple, that is to say, by the product `p D` of one `p` of the two rotations, multiplied by the distance `D` separating their parallel axes.
 
-And, indeed, consider any point {m} of the body, taken in the plane of this couple, at a distance {x} from the first axis {p}, and, consequently, at a distance {x - D} from the second {-p}. By rotation {p}, point {m} rises perpendicular to the plane with velocity {p x}; by rotation {-p}, it lowers in the opposite direction with velocity {p (x - D)}: so that it has, along the normal, the velocity {p x - p (x - D) = p D}. Therefore, as {x} no longer appears in this expression, all points of the plane, and, consequently, all those of the body have the same velocity {p D} perpendicular to the plane of the couple. Therefore, etc.
+And, indeed, consider any point `m` of the body, taken in the plane of this couple, at a distance `x` from the first axis `p`, and, consequently, at a distance `x - D` from the second `-p`. By rotation `p`, point `m` rises perpendicular to the plane with velocity `p x`; by rotation `-p`, it lowers in the opposite direction with velocity {p (x - D)}: so that it has, along the normal, the velocity {p x - p (x - D) = p D}. Therefore, as `x` no longer appears in this expression, all points of the plane, and, consequently, all those of the body have the same velocity `p D` perpendicular to the plane of the couple. Therefore, etc.
 
-13. It is seen from this that a couple of rotations can be rotated and translated as desired within its plane, or in any other parallel plane, without the body's movement being changed; and furthermore, that this couple can be transformed into another composed of new rotations {p'} and {-p'}, with a new arm {D'}, provided that the moment {p' D'} is equal to the first {p D}.
+13. It is seen from this that a couple of rotations can be rotated and translated as desired within its plane, or in any other parallel plane, without the body's movement being changed; and furthermore, that this couple can be transformed into another composed of new rotations `p'` and `-p'`, with a new arm `D'`, provided that the moment `p' D'` is equal to the first `p D`.
 
 14. From this property and the parallelogram of simple rotations, it can be immediately concluded that couples of rotations, situated as desired in any planes, can always be composed into a single one by the same law as couples of forces, and, consequently, as simple forces acting on a point: in a word, all theorems concerning ordinary couples can be applied to these new couples, without exception.
 
@@ -223,7 +223,7 @@ which would serve as their bases; and one would likewise see that the mobile cur
 
 Remark II.
 
-29. It may also not be useless to make a remark on the clear idea that must be attached to words when one speaks of the movement of the instantaneous axis, or when one uses some other term that implies the mobility of this axis, either in the body or in space. This is merely a way of expressing oneself. The instantaneous axis does not move: for it is by its nature immobile for an instant, and at the end of this instant, it is another line that in turn becomes the axis of rotation. But by imagining the set of all these lines, drawn in advance, some in the body and others in space, and giving them the common name of instantaneous axis, one can naturally speak of the surface described by this axis, instead of speaking of the surface formed by the succession of all these lines, each of which must in turn become the axis of rotation. And similarly, instead of the angle `d φ` between two consecutive generators of this surface, one can speak of the angle described in an instant `dt` by the instantaneous axis, and thus name the ratio `{d φ} over {dt}` the angular velocity with which this axis simultaneously traces the two conical surfaces in question: It is in the same sense that one names the ratio `{ds} over {dt}`, or the ratio `{d σ} over {dt}` which is equal to it, the velocity with which the instantaneous pole `I` moves along the two curves `s` and `σ`, one in the body and the other in space, although the point of the body which at this moment forms the instantaneous pole has no velocity by its nature. For this point of the body, as long as it forms the pole, is immobile; and as soon as it moves, it is no longer the pole of rotation.
+29. It may also not be useless to make a remark on the clear idea that must be attached to words when one speaks of the movement of the instantaneous axis, or when one uses some other term that implies the mobility of this axis, either in the body or in space. This is merely a way of expressing oneself. The instantaneous axis does not move: for it is by its nature immobile for an instant, and at the end of this instant, it is another line that in turn becomes the axis of rotation. But by imagining the set of all these lines, drawn in advance, some in the body and others in space, and giving them the common name of instantaneous axis, one can naturally speak of the surface described by this axis, instead of speaking of the surface formed by the succession of all these lines, each of which must in turn become the axis of rotation. And similarly, instead of the angle `d φ` between two consecutive generators of this surface, one can speak of the angle described in an instant `dt` by the instantaneous axis, and thus name the ratio `{{d φ} over {dt}}` the angular velocity with which this axis simultaneously traces the two conical surfaces in question: It is in the same sense that one names the ratio `{ds} over {dt}`, or the ratio `{d σ} over {dt}` which is equal to it, the velocity with which the instantaneous pole `I` moves along the two curves `s` and `σ`, one in the body and the other in space, although the point of the body which at this moment forms the instantaneous pole has no velocity by its nature. For this point of the body, as long as it forms the pole, is immobile; and as soon as it moves, it is no longer the pole of rotation.
 
 IX. — On the different things that can naturally be considered in the study of the movement of a body around a point, and on the mutual dependence of these things.
 
@@ -236,25 +236,25 @@ Suppose, for example, that the fixed curve `σ` is given along with the velocity
 ### Page 25
 
 `{d σ} over {dt}`
-of the instantaneous pole I along this curve. As the body rotates about OI with a given angular velocity `θ` also given, it is clear that the point of the body which, at the end of the instant {dt}, must fall onto the fixed curve `σ` to become in turn the instantaneous pole, is a point already determined in the body; and the same applies to the other points of the body that successive rotations must bring one after another, as poles, onto the fixed and given curve `σ`: from which it is seen that the other curve {s}, which marks the path of the pole within the body, is entirely determined.
+of the instantaneous pole I along this curve. As the body rotates about OI with a given angular velocity `θ` also given, it is clear that the point of the body which, at the end of the instant `dt`, must fall onto the fixed curve `σ` to become in turn the instantaneous pole, is a point already determined in the body; and the same applies to the other points of the body that successive rotations must bring one after another, as poles, onto the fixed and given curve `σ`: from which it is seen that the other curve `s`, which marks the path of the pole within the body, is entirely determined.
 
-And conversely, if, instead of the fixed curve `σ`, we are given the mobile curve {s}, with the velocity `{ds} over {dt}` and the rotation `θ`, we will similarly see that the fixed curve `σ` will be entirely determined in space.
+And conversely, if, instead of the fixed curve `σ`, we are given the mobile curve `s`, with the velocity `{ds} over {dt}` and the rotation `θ`, we will similarly see that the fixed curve `σ` will be entirely determined in space.
 
-51. In general, in the study of the movement of a body around a fixed point, several simple quantities naturally present themselves for consideration, such as the angular velocity `θ` of rotation around the instantaneous axis OI; the angular velocity `ω` with which this axis traces the two conical surfaces S and Σ that it describes simultaneously, one inside the body, the other in absolute space; the radii of curvature {r} and `ρ` of these two surfaces; the angular movements {p} and `π` of the pole, one around the axis OP of the osculating cone of the mobile surface S, and the other around the axis O{Pi} of the osculating cone of the fixed surface Σ; etc. And if, of these different things, any three are known, it can be said that the others are also known, and that the movement of the body is entirely determined.
+51. In general, in the study of the movement of a body around a fixed point, several simple quantities naturally present themselves for consideration, such as the angular velocity `θ` of rotation around the instantaneous axis OI; the angular velocity `ω` with which this axis traces the two conical surfaces S and Σ that it describes simultaneously, one inside the body, the other in absolute space; the radii of curvature `r` and `ρ` of these two surfaces; the angular movements `p` and `π` of the pole, one around the axis OP of the osculating cone of the mobile surface S, and the other around the axis O`Pi` of the osculating cone of the fixed surface Σ; etc. And if, of these different things, any three are known, it can be said that the others are also known, and that the movement of the body is entirely determined.
 
-A clear idea of these mutual relations can be formed by taking a constant length {OI = 1} on the instantaneous axis, and considering the two curves {s} and `σ`, described by the pole I, as two spherical polygons with an infinite number of sides.
+A clear idea of these mutual relations can be formed by taking a constant length {OI = 1} on the instantaneous axis, and considering the two curves `s` and `σ`, described by the pole I, as two spherical polygons with an infinite number of sides.
 
 ![Fig. 10](figures/fig_10.png)
 
-For, during the instant {dt}, where the pole remains immobile at I, the side {ds} of the mobile spherical polygon {s} describes,
+For, during the instant `dt`, where the pole remains immobile at I, the side `ds` of the mobile spherical polygon `s` describes,
 
 ![Fig. 11](figures/fig_11.png)
 
- to lie on the equal side {d σ} of the fixed polygon `σ`, an angle formed by the sum of the exterior angle {d θ} of the mobile polygon and the exterior angle {d σ} of the fixed polygon, or by the difference of these two angles, if the two curves {s} and `σ` have their convexities turned in the same direction. The angular velocity `θ`, around the instantaneous axis OI, is therefore expressed by the sum or by the difference of these two angles, divided by the element {dt} of time; so that we have
+ to lie on the equal side `d σ` of the fixed polygon `σ`, an angle formed by the sum of the exterior angle `d θ` of the mobile polygon and the exterior angle `d σ` of the fixed polygon, or by the difference of these two angles, if the two curves `s` and `σ` have their convexities turned in the same direction. The angular velocity `θ`, around the instantaneous axis OI, is therefore expressed by the sum or by the difference of these two angles, divided by the element `dt` of time; so that we have
 
 `{θ} = {d θ +- d σ} over {dt}`
 
-(the sign {+-}, depending on whether the two curves {s} and `σ` have, at the point of contact I,
+(the sign `+-`, depending on whether the two curves `s` and `σ` have, at the point of contact I,
 
 ### Page 26
 
@@ -324,15 +324,15 @@ X. — Idea of the most general motion a body can have in absolute space.
 
 ![Fig. 13](figures/fig_13.png)
 
-34. Consider any point O of the body, and its current velocity {u} (Fig. 13) in space; it is clear that the entire motion of the body, whatever it may be, can be seen at this instant as composed of: 1° a simple translation that would carry all molecules with the same velocity {u} along lines parallel to the direction of this velocity; and 2° a simple rotation `θ` around a certain axis OI passing through the point O under consideration. For, by virtue of the first of these two movements, point O will be carried in space to the very place where it should be at the end of an instant; and by the second around a well-chosen axis OI, the body can reach any position supposed for it at the end of the same instant.
+34. Consider any point O of the body, and its current velocity `u` (Fig. 13) in space; it is clear that the entire motion of the body, whatever it may be, can be seen at this instant as composed of: 1° a simple translation that would carry all molecules with the same velocity `u` along lines parallel to the direction of this velocity; and 2° a simple rotation `θ` around a certain axis OI passing through the point O under consideration. For, by virtue of the first of these two movements, point O will be carried in space to the very place where it should be at the end of an instant; and by the second around a well-chosen axis OI, the body can reach any position supposed for it at the end of the same instant.
 
 ![Fig. 14](figures/fig_14.png)
 
-Now, if the direction OU of the translation {u} were perpendicular to the axis OI of the rotation `θ`, the entire motion could be reduced to a simple rotation `θ` around a certain axis O'S parallel to OI (Fig. 14). For, draw a plane perpendicular to OU along OI, and suppose that in this plane, and on the side of the axis where the rotational velocity of the molecules is opposite to their translational velocity, a point O' is taken at a distance {x} = {u} over {`θ`} from this axis OI; it is evident that this point O' will have zero velocity {x}`θ` - {u} in space, and the same will apply to all points of the body located on the line O'S parallel to OI. Therefore, in the particular case where OU is perpendicular to the instantaneous axis OI, the double motion of the body reduces to a simple rotation around a certain determined axis O'S, which is called the spontaneous axis of rotation.
+Now, if the direction OU of the translation `u` were perpendicular to the axis OI of the rotation `θ`, the entire motion could be reduced to a simple rotation `θ` around a certain axis O'S parallel to OI (Fig. 14). For, draw a plane perpendicular to OU along OI, and suppose that in this plane, and on the side of the axis where the rotational velocity of the molecules is opposite to their translational velocity, a point O' is taken at a distance `x` = {u} over {`θ`} from this axis OI; it is evident that this point O' will have zero velocity `x``θ` - `u` in space, and the same will apply to all points of the body located on the line O'S parallel to OI. Therefore, in the particular case where OU is perpendicular to the instantaneous axis OI, the double motion of the body reduces to a simple rotation around a certain determined axis O'S, which is called the spontaneous axis of rotation.
 
 ![Fig. 15](figures/fig_15.png)
 
-Currently, if OU is not perpendicular to OI (which is the more general case, Fig. 15.), imagine that the translational velocity {u} is decomposed into two, one {v} perpendicular to OI, and the other {v'} parallel to the same axis. The first
+Currently, if OU is not perpendicular to OI (which is the more general case, Fig. 15.), imagine that the translational velocity `u` is decomposed into two, one `v` perpendicular to OI, and the other `v'` parallel to the same axis. The first
 
 ### Page 29
 
@@ -478,16 +478,16 @@ Of forces capable of any movement; and, reciprocally, of the movement that a bod
 
 49. Reciprocally, whatever forces are applied to a body, imagine them all transported parallel to themselves to the point that constitutes the center of gravity of this body: they will combine there into a single R, and all the couples resulting from their translations will combine into a single G.
 
-Now the resultant R, being applied to the center of gravity of the body, tends to impart to all molecules a common velocity {u} = {R} over {m}, and in the very direction of this force R.
+Now the resultant R, being applied to the center of gravity of the body, tends to impart to all molecules a common velocity `u` = {R} over `m`, and in the very direction of this force R.
 
 The couple G tends to impart to the body a rotation θ around a certain axis OI, passing through the same center, and which will be determined as stated above.
 
 Remark.
 ![Fig. 17](figures/fig_17.png)
 
-50. Each molecule {dm} is therefore animated by two forces, one {udm} parallel to R, the other θ {rdm} perpendicular both to the axis OI and to its distance r from this axis. Thus, this molecule describes, at each instant {dt}, the diagonal of the parallelogram constructed on the two infinitely small lines {udt} and θ {rdt} which represent the spaces due to these forces.
+50. Each molecule `dm` is therefore animated by two forces, one `udm` parallel to R, the other θ `rdm` perpendicular both to the axis OI and to its distance r from this axis. Thus, this molecule describes, at each instant `dt`, the diagonal of the parallelogram constructed on the two infinitely small lines `udt` and θ `rdt` which represent the spaces due to these forces.
 
-Such will therefore be the movements of all the molecules of the body; and all these simultaneous movements are possible, I mean that they can exist together without the mutual arrangement of the molecules being altered in any way. For all the component movements {udt}, considered separately, are evidently possible; and the same applies to all the movements θ {rdt}. Now it is clear that, by these two movements executed one after the other, one would bring about
+Such will therefore be the movements of all the molecules of the body; and all these simultaneous movements are possible, I mean that they can exist together without the mutual arrangement of the molecules being altered in any way. For all the component movements `udt`, considered separately, are evidently possible; and the same applies to all the movements θ `rdt`. Now it is clear that, by these two movements executed one after the other, one would bring about
 
 ### Page 36
 
@@ -709,17 +709,17 @@ I. — On the moments of inertia of a body of any shape around different axes th
 
 ### Page 48
 
-respective `α`, `β`, `γ`: we propose to find the expression for the moment of inertia with respect to this given line of inclination on the three fixed coordinate axes {x}, {y}, {z}.
+respective `α`, `β`, `γ`: we propose to find the expression for the moment of inertia with respect to this given line of inclination on the three fixed coordinate axes `x`, `y`, `z`.
 
-This moment of inertia is nothing other than the sum of the products of each particle of the body by the square of its distance to the axis under consideration. Thus, by naming {dm} one of these particles, {r} its distance to the given line {h}, we have, for the moment of inertia of this particle, {r^2 dm}, and for the moment of inertia of the entire body, `∫ r^2 dm`, representing by `∫ r^2 dm` the sum of all similar products to {r^2 dm} that can be formed by considering all the molecules of the body.
+This moment of inertia is nothing other than the sum of the products of each particle of the body by the square of its distance to the axis under consideration. Thus, by naming `dm` one of these particles, `r` its distance to the given line `h`, we have, for the moment of inertia of this particle, {r^2 dm}, and for the moment of inertia of the entire body, `∫ r^2 dm`, representing by `∫ r^2 dm` the sum of all similar products to {r^2 dm} that can be formed by considering all the molecules of the body.
 
-Now, {x}, {y}, {z} being the coordinates of any particle {dm}, and {delta} its distance to the origin, we will have
+Now, `x`, `y`, `z` being the coordinates of any particle `dm`, and `delta` its distance to the origin, we will have
 `delta^2 = x^2 + y^2 + z^2;`
 
-and for the distance {r} of this particle to the given axis {h}, we will have
+and for the distance `r` of this particle to the given axis `h`, we will have
 `r = delta sin φ,`
 
-`φ` being the mutual inclination of {delta} and {h}; we therefore have
+`φ` being the mutual inclination of `delta` and `h`; we therefore have
 `r^2 = delta^2 sin^2 φ = delta^2 (1 - cos^2 φ),`
 
 and, as we have, by geometry,
@@ -728,17 +728,17 @@ and, as we have, by geometry,
 we will find, by substituting this value (and observing that we always have the relation `cos^2 α + cos^2 β + cos^2 γ = 1`),
 `r^2 = cos^2 α (y^2 + z^2) + cos^2 β (x^2 + z^2) + cos^2 γ (x^2 + y^2) - 2 (cos α cos β xy + cos α cos γ xz + cos β cos γ yz),`
 
-and, consequently, multiplying everything by {dm}, and applying the `∫` sign,
+and, consequently, multiplying everything by `dm`, and applying the `∫` sign,
 `∫ r^2 dm = cos^2 α ∫ (y^2 + z^2) dm + cos^2 β ∫ (x^2 + z^2) dm + cos^2 γ ∫ (x^2 + y^2) dm - 2 (cos α cos β ∫ xy dm + cos α cos γ ∫ xz dm + cos β cos γ ∫ yz dm),`
 
-which gives the moment of inertia relative to the proposed axis, by the inclinations `α`, `β`, `γ`, of this axis on the three given fixed axes {x}, {y}, {z}, and by the six integrals
+which gives the moment of inertia relative to the proposed axis, by the inclinations `α`, `β`, `γ`, of this axis on the three given fixed axes `x`, `y`, `z`, and by the six integrals
 `∫ (y^2 + z^2) dm, ∫ (x^2 + z^2) dm, ∫ (x^2 + y^2) dm,`
 `∫ xy dm, ∫ xz dm, ∫ yz dm,`
 
 relative to the same axes: integrals that can be regarded as currently determined by the known position of the body, and which I will represent by the six respective constants
 `A, B, C, L, M, N;`
 
-so that, by simply denoting by {H} the moment of inertia `∫ r^2 dm`
+so that, by simply denoting by `H` the moment of inertia `∫ r^2 dm`
 
 ### Page 49
 
@@ -925,27 +925,27 @@ But there is yet a much clearer expression for everything concerning the moments
 
 Meanwhile, it must be shown how one can find the moment of inertia of a body about any axis, when the axes and the principal moments of inertia A, B, C, which relate to the center of gravity of this body, are known.
 
-77. We have already seen that, for any axis {h} passing through the center of gravity, the moment of inertia {H} would be expressed by the formula
+77. We have already seen that, for any axis `h` passing through the center of gravity, the moment of inertia `H` would be expressed by the formula
 `H = A cos^2 α + B cos^2 β + C cos^2 γ`
 
-{α}, {β}, {γ} being the inclinations of this axis to the three principal axes of the body. Now it is easy to find the moment of inertia of a body about any axis {h'}, from the moment of inertia {H} about a parallel axis passing through the center of gravity of this body.
+`α`, `β`, `γ` being the inclinations of this axis to the three principal axes of the body. Now it is easy to find the moment of inertia of a body about any axis `h'`, from the moment of inertia `H` about a parallel axis passing through the center of gravity of this body.
 
-And, indeed, let {r'} be the distance of a molecule {dm} of the body to the axis {h'} under consideration, {r} its distance to the parallel axis passing through the center, and {D} the mutual distance of these two axes; we will have; in the triangle formed by the three lines {r'}, {r} and {D},
+And, indeed, let `r'` be the distance of a molecule `dm` of the body to the axis `h'` under consideration, `r` its distance to the parallel axis passing through the center, and `D` the mutual distance of these two axes; we will have; in the triangle formed by the three lines `r'`, `r` and `D`,
 `{r'}^2 = r^2 + D^2 - 2 D r cos φ`
 
-{φ} being the inclination of {r} to {D}. We will therefore have
+`φ` being the inclination of `r` to `D`. We will therefore have
 `∫ from {} to {} {r'}^2 dm = ∫ from {} to {} r^2 dm + M D^2 - 2 D ∫ from {} to {} r cos φ dm`
 or else
 `H' = H + M D^2 - 2 D ∫ from {} to {} r cos φ dm`
 
-But {r cos φ} marks the distance of the molecule {dm} to the plane that would be drawn through the center of gravity perpendicularly to the line {D}; we therefore have, since this plane passes through the center, `∫ from {} to {} r cos φ dm = 0`, and consequently,
+But `r cos φ` marks the distance of the molecule `dm` to the plane that would be drawn through the center of gravity perpendicularly to the line `D`; we therefore have, since this plane passes through the center, `∫ from {} to {} r cos φ dm = 0`, and consequently,
 `H' = H + M D^2`
 
 that is to say, the moment of inertia of a body about an axis drawn as desired in space is found by taking the moment of inertia about a parallel axis drawn through the center of gravity, and adding to it the product of the mass by the square of the distance from this center to the external axis under consideration.
 
-78. It is seen from this that the moments of inertia of a body for all parallel axes {h'} which are at an equal distance {D} from the center of gravity of this body, or which form the surface of a right and circular cylinder around this center.
+78. It is seen from this that the moments of inertia of a body for all parallel axes `h'` which are at an equal distance `D` from the center of gravity of this body, or which form the surface of a right and circular cylinder around this center.
 
-If one conceives this cylinder described, and if one makes it rotate around the same center, in an infinity of different positions, the moments of inertia of the body relative to the generatrices {h'} will indeed have the same value on each cylinder, but they will vary in magnitude from one cylinder to another. But if one rotates the cylinder in question such that its axis describes the conical surface corresponding to the equation
+If one conceives this cylinder described, and if one makes it rotate around the same center, in an infinity of different positions, the moments of inertia of the body relative to the generatrices `h'` will indeed have the same value on each cylinder, but they will vary in magnitude from one cylinder to another. But if one rotates the cylinder in question such that its axis describes the conical surface corresponding to the equation
 `A cos^2 α + B cos^2 β + C cos^2 γ = H = constant`
 
 ### Page 57
@@ -1091,20 +1091,20 @@ and, for the three cosines of the inclination of its axis to the three axes of t
 
 ### Page 64
 
-The instantaneous axis is inclined to the couple axis, and it follows from the preceding expressions that, by denoting the mutual inclination of these two axes by {i}, we have, by the known formula,
+The instantaneous axis is inclined to the couple axis, and it follows from the preceding expressions that, by denoting the mutual inclination of these two axes by `i`, we have, by the known formula,
 `cos i = {L p + M q + N r} over {G θ}`
 
 But here, by considering our central ellipsoid, is a much clearer expression regarding the relative position of the couple and the instantaneous axis within the body.
 
 New expression of the preceding theorems.
 
-9. Let us consider point I where the instantaneous axis meets the surface of the central ellipsoid, which point marks on this surface what we will henceforth call the instantaneous pole of rotation. If we denote the coordinates of this pole I by {x'}, {y'}, {z'}, we will have for the plane tangent to the ellipsoid at I, or rather, for the diametral plane parallel to this tangent plane, the equation
+9. Let us consider point I where the instantaneous axis meets the surface of the central ellipsoid, which point marks on this surface what we will henceforth call the instantaneous pole of rotation. If we denote the coordinates of this pole I by `x'`, `y'`, `z'`, we will have for the plane tangent to the ellipsoid at I, or rather, for the diametral plane parallel to this tangent plane, the equation
 `{x x'} over {a^2} + {y y'} over {b^2} + {z z'} over {c^2} = 0.`
 
-Now, since the direction of the instantaneous axis OI is nothing other than that of the diagonal of the rectangular rhomboid constructed on the three lines representing {p}, {q}, {r}, it is evident that the coordinates {x'}, {y'}, {z'} of point I are proportional to {p}, {q}, {r}. But these, as seen above (n° 8), are proportional to {L a^2}, {M b^2}, {N c^2}: therefore, we can substitute these last three quantities for {x'}, {y'}, {z'}; and we obtain, for the equation of this plane parallel to the tangent plane,
+Now, since the direction of the instantaneous axis OI is nothing other than that of the diagonal of the rectangular rhomboid constructed on the three lines representing `p`, `q`, `r`, it is evident that the coordinates `x'`, `y'`, `z'` of point I are proportional to `p`, `q`, `r`. But these, as seen above (n° 8), are proportional to {L a^2}, {M b^2}, {N c^2}: therefore, we can substitute these last three quantities for `x'`, `y'`, `z'`; and we obtain, for the equation of this plane parallel to the tangent plane,
 `L x + M y + N z = 0.`
 
-Now it is evident that this equation is nothing other than that of a plane perpendicular to line G whose three projections on the axes are {L}, {M}, {N}; and, consequently, it is the very equation of the couple's plane.
+Now it is evident that this equation is nothing other than that of a plane perpendicular to line G whose three projections on the axes are `L`, `M`, `N`; and, consequently, it is the very equation of the couple's plane.
 
 Therefore, the instantaneous axis of rotation due to a couple is nothing other than the diameter conjugate to the plane of this couple in the central ellipsoid of the body under consideration.
 
@@ -1286,27 +1286,27 @@ However, as the interval between two consecutive vertices of the same name corre
 
 ### Page 76
 
-although these curves are of such different forms, as it is a single and same point that describes both, their equations taken between the radius vector emanating from the center {O}, and the length of the arc described, are exactly one and the same equation.
+although these curves are of such different forms, as it is a single and same point that describes both, their equations taken between the radius vector emanating from the center `O`, and the length of the arc described, are exactly one and the same equation.
 
-The rolling cone, on the surface of which the first curve {s} serves as a base, is simply a right cone of the second degree; but the fixed cone on which it rolls is a transcendent cone whose surface undulates to infinity around the fixed axis of the couple; it is also a kind of right and circular cone, but whose surface would be, so to speak, fluted according to the regularly undulating contour of the curve σ which serves as its base.
+The rolling cone, on the surface of which the first curve `s` serves as a base, is simply a right cone of the second degree; but the fixed cone on which it rolls is a transcendent cone whose surface undulates to infinity around the fixed axis of the couple; it is also a kind of right and circular cone, but whose surface would be, so to speak, fluted according to the regularly undulating contour of the curve σ which serves as its base.
 
-III. — Varieties that the two curves {s} and σ can offer in certain particular cases.
+III. — Varieties that the two curves `s` and σ can offer in certain particular cases.
 
-38. These two curves depend, as we see, only on four given values, namely: the three semi-axes or principal radii {a}, {b}, {c} of the central ellipsoid, which are always given by the nature of the body; and then the height {h} of the center above the tangent plane of the couple, which is given by the direction of the impulse couple.
+38. These two curves depend, as we see, only on four given values, namely: the three semi-axes or principal radii `a`, `b`, `c` of the central ellipsoid, which are always given by the nature of the body; and then the height `h` of the center above the tangent plane of the couple, which is given by the direction of the impulse couple.
 
-The varieties that these two curves can offer, for the same body, therefore depend only on the particular values that can be given to the constant line {h}.
+The varieties that these two curves can offer, for the same body, therefore depend only on the particular values that can be given to the constant line `h`.
 
-Now, this line being the distance from the center of the ellipsoid to one of its tangent planes, it is necessarily intermediate between the largest and the smallest radius of this ellipsoid; so that the three principal radii {a}, {b}, {c} being, as we have said, arranged in this order of magnitude,
+Now, this line being the distance from the center of the ellipsoid to one of its tangent planes, it is necessarily intermediate between the largest and the smallest radius of this ellipsoid; so that the three principal radii `a`, `b`, `c` being, as we have said, arranged in this order of magnitude,
 
 `a > b > c`
 
-we can only distinguish two general cases, namely, {h} between {a} and {b}, and {h} between {b} and {c}; then two particular cases, namely, {h = a}, {h = c}; and finally, a case that I will call singular and which is that of {h = b} at the mean radius {b}.
+we can only distinguish two general cases, namely, `h` between `a` and `b`, and `h` between `b` and `c`; then two particular cases, namely, {h = a}, {h = c}; and finally, a case that I will call singular and which is that of {h = b} at the mean radius `b`.
 
-In the two general cases, the curves {s} and σ are those we have just described.
+In the two general cases, the curves `s` and σ are those we have just described.
 
-In the two particular cases of {h = a}, {h = c}, each of them reduces to a point which is either pole {A} or pole {C} of the ellipsoid; and the body rotates uniformly around one or the other of the two principal axes {2a} or {2c}, which axis remains immobile in absolute space, as well as that of the couple {G} with which it coincides throughout the movement.
+In the two particular cases of {h = a}, {h = c}, each of them reduces to a point which is either pole `A` or pole `C` of the ellipsoid; and the body rotates uniformly around one or the other of the two principal axes `2a` or `2c`, which axis remains immobile in absolute space, as well as that of the couple `G` with which it coincides throughout the movement.
 
-39. But in the singular case of {h} equal to the mean radius {b} of the central ellipsoid, the curve {s} does not reduce to a point; for, on the surface of the ellipsoid, besides the mean pole {B}, where the tangent plane is at a distance {h = b} from the
+39. But in the singular case of `h` equal to the mean radius `b` of the central ellipsoid, the curve `s` does not reduce to a point; for, on the surface of the ellipsoid, besides the mean pole `B`, where the tangent plane is at a distance {h = b} from the
 
 ### Page 77
 
@@ -1324,13 +1324,13 @@ Rotation is therefore an ever-new point, both in the body and in absolute space;
 
 Such is therefore the movement of the pole when we assume `{h} = {b}`, that is to say, when the plane of the applied couple touches the central ellipsoid at a point belonging to one or the other of these two singular ellipses we have just mentioned.
 
-41. But if the plane were to touch precisely at the mean pole {B} where these two ellipses intersect, pole {I}, which would then coincide with {B} and the fixed center {P}, would remain perfectly immobile, and the body would continue to rotate uniformly around the mean axis {OB}, as it would around the major axis {OA}, or the minor axis {OC}, if the plane of the couple were tangent to pole {A}, or to pole {C} of the ellipsoid. Indeed, there would be no reason for pole {I}, which can only describe one of the two ellipses we have just mentioned on the surface, and which at this moment falls at extremity {B} of their common axis, to describe one rather than the other of these two perfectly equal and symmetrical ellipses; from which it is seen that, strictly speaking, the mean axis of the central ellipsoid is, like the other two, a permanent axis of rotation.
+41. But if the plane were to touch precisely at the mean pole `B` where these two ellipses intersect, pole `I`, which would then coincide with `B` and the fixed center `P`, would remain perfectly immobile, and the body would continue to rotate uniformly around the mean axis `OB`, as it would around the major axis `OA`, or the minor axis `OC`, if the plane of the couple were tangent to pole `A`, or to pole `C` of the ellipsoid. Indeed, there would be no reason for pole `I`, which can only describe one of the two ellipses we have just mentioned on the surface, and which at this moment falls at extremity `B` of their common axis, to describe one rather than the other of these two perfectly equal and symmetrical ellipses; from which it is seen that, strictly speaking, the mean axis of the central ellipsoid is, like the other two, a permanent axis of rotation.
 
-42. But there is this difference, that around this mean axis, the rotation has no *stability*: I mean that, however little pole {I}, by virtue of a small external couple applied to the body, deviates from the mean pole {B}, it will tend to deviate further; then going on to describe an elliptical orbit `{s}`, either around the major axis or around the minor axis, depending on whether this accidental displacement of the pole has increased or decreased the distance `{h}` of the tangent plane: and if the displacement is such that `{h}` has not varied in magnitude, the pole will describe one or the other of these two singular ellipses we have considered.
+42. But there is this difference, that around this mean axis, the rotation has no *stability*: I mean that, however little pole `I`, by virtue of a small external couple applied to the body, deviates from the mean pole `B`, it will tend to deviate further; then going on to describe an elliptical orbit `{s}`, either around the major axis or around the minor axis, depending on whether this accidental displacement of the pole has increased or decreased the distance `{h}` of the tangent plane: and if the displacement is such that `{h}` has not varied in magnitude, the pole will describe one or the other of these two singular ellipses we have considered.
 
-43. There is only one case where pole {I}, being displaced from the mean pole {B} of the ellipsoid, would tend to return to it: this is the case where pole {I} would be carried on the circumference of one of these two ellipses on the precise side where the direction of rotation tends to bring it back towards {B}.
+43. There is only one case where pole `I`, being displaced from the mean pole `B` of the ellipsoid, would tend to return to it: this is the case where pole `I` would be carried on the circumference of one of these two ellipses on the precise side where the direction of rotation tends to bring it back towards `B`.
 
-If it is carried on the same ellipse, but on the other side of its vertex {B}, it will move indefinitely away from this mean pole {B}, and it will fall, after an infinite time, onto the opposite pole {B'} of the ellipsoid. Thus, in this case, which is unique like the preceding one, the ellipsoid, which, at the beginning, touched the fixed plane by its mean pole {B}, would touch it at the end by the opposite mean pole {B'}; so that the position of the body would be entirely ren -.
+If it is carried on the same ellipse, but on the other side of its vertex `B`, it will move indefinitely away from this mean pole `B`, and it will fall, after an infinite time, onto the opposite pole `B'` of the ellipsoid. Thus, in this case, which is unique like the preceding one, the ellipsoid, which, at the beginning, touched the fixed plane by its mean pole `B`, would touch it at the end by the opposite mean pole `B'`; so that the position of the body would be entirely ren -.
 
 ### Page 79
 
@@ -1481,7 +1481,7 @@ we have, consequently,
 
 ### Page 86
 
-and it results that the third quantity `γ`^2 is also positive; because, by giving {h}^2 any value it may have, and which I represent by
+and it results that the third quantity `γ`^2 is also positive; because, by giving `h`^2 any value it may have, and which I represent by
 `h^2 = (a^2 b^2 + a^2 i^2) : (a^2 + b^2)`
 it comes
 `{γ}^2 = (a^2 + b^2) (1 - {b^2} over {b^2 + i^2})`
@@ -1710,7 +1710,7 @@ or (according to the preceding abbreviations (no. 61) and the relation `Delta = 
 
 trinomial where we see the perfect square of the binomial `h v^2 + D over h^3`. We therefore have this simpler expression
 
-`d φ = {dv} over {v} {h v^2 + D over h^3} over {sqrt{R - Q (v^2 + h^2) + P (v^2 + h^2)^2 - (v^2 + h^2)^3}}`
+`d φ = {{dv} over {v}} cdot {{h v^2 + {D} over {h^3}} over {sqrt{R - Q (v^2 + h^2) + P (v^2 + h^2)^2 - (v^2 + h^2)^3}}}`
 
 for the desired polar equation.
 
@@ -2089,7 +2089,7 @@ are here essentially negative, because of the radius vector `u` always smaller t
 II.
 
 8. Now, the differential equation (U), which contains only the two variables `u` and `t`, being put in the form
-`dt = {k} over {2} {2 u du} over {sqrt{(u^4 - α^2)(β^2 - u^2)(u^2 - γ^2)}}`
+`dt = {{k} over {2}} cdot {{2 u du} over {sqrt{(u^4 - α^2)(β^2 - u^2)(u^2 - γ^2)}}}`
 is immediately reduced to quadratures.
 
 We will therefore have by integrating, and determining the arbitrary constant in such a way that time `t` begins when the radius vector `u` is at its maximum `β`,
@@ -2246,15 +2246,15 @@ for the expression of the radius vector `u` as a function of time `t`. Now, each
 
 ### Page 112
 
-what is, on the surface of the central ellipsoid, the position of pole I at the end of any time {t}.
+what is, on the surface of the central ellipsoid, the position of pole I at the end of any time `t`.
 
-To now have its position on the fixed plane of the impulse couple, at the end of the same time {t}, we will take, for the two coordinates of this point, the radius vector {v} emanating from the center of the herpolhode `σ`, with the angle `φ` that this radius makes with a fixed line in the plane of this curve.
+To now have its position on the fixed plane of the impulse couple, at the end of the same time `t`, we will take, for the two coordinates of this point, the radius vector `v` emanating from the center of the herpolhode `σ`, with the angle `φ` that this radius makes with a fixed line in the plane of this curve.
 Now, because of {h = b}, we have
 {v^2 = u^2 - b^2}
 and the preceding equation immediately gives
-{v = {2 n} over {e^{{nt} over {k}} + e^{-{{nt} over {k}}}}}
+{v = {2 n} over {e^{{nt} over `k`} + e^{-{{nt} over `k`}}}}
 
-Then, as the differential expression of `{d φ} over {dt}` (no. 13) reduces here (because of `h = b`) to the very simple expression `{d φ} over {dt} = {h} over {k^2}`, we will immediately have
+Then, as the differential expression of `{{d φ} over {dt}}` (no. 13) reduces here (because of `h = b`) to the very simple expression `{d φ} over {dt} = {h} over {k^2}`, we will immediately have
 `{φ = {b} over {k^2} t}`
 by making the angle `φ` start with time `t`.
 
@@ -2364,19 +2364,19 @@ to the plane MN, this horizontal plane MN can be nothing other than the plane ta
 
 27. Currently, it is quite easy to represent the movement of the body by that of this inner cone (OT), which is attached to the body and carries it along in absolute space.
 
-Indeed, by the rotation {θ sin i} around the generator OT, this cone rolls Fig. 21. on the horizontal plane MN and brings into contact, after an instant {dt}, a certain infinitely close generator {OT'}: by the second rotation {θ cos i} around the vertical OG, this generator {OT'} slides on the same plane, turning by an infinitely small angle {T' OT''}. Thus, by the two component rotations of {θ}, the generator OT, or the line of contact of the cone with the plane MN, has described on this plane, after an instant {dt}, an angle {TOT'} composed of the two angles {TOT'}, {T' OT''} which we have just discussed.
+Indeed, by the rotation `θ sin i` around the generator OT, this cone rolls Fig. 21. on the horizontal plane MN and brings into contact, after an instant `dt`, a certain infinitely close generator `OT'`: by the second rotation `θ cos i` around the vertical OG, this generator `OT'` slides on the same plane, turning by an infinitely small angle `T' OT''`. Thus, by the two component rotations of `θ`, the generator OT, or the line of contact of the cone with the plane MN, has described on this plane, after an instant `dt`, an angle `TOT'` composed of the two angles `TOT'`, `T' OT''` which we have just discussed.
 
-To represent the movement of the body, it must therefore be conceived that at each instant {dt}, the cone (OT) is rolled on the fixed plane MN, by the angle
+To represent the movement of the body, it must therefore be conceived that at each instant `dt`, the cone (OT) is rolled on the fixed plane MN, by the angle
 
 {TOT' = dω}
 
-due to the rotation {θ sin i} around the line of contact OT, and then, that it is made to slide, on the same plane, by the angle
+due to the rotation `θ sin i` around the line of contact OT, and then, that it is made to slide, on the same plane, by the angle
 
 {T' OT'' = dψ}
 
-due to the rotation {θ cos i} around the vertical OG: and by these two movements, executed one after the other, we have the position of the body after this instant {dt}.
+due to the rotation `θ cos i` around the vertical OG: and by these two movements, executed one after the other, we have the position of the body after this instant `dt`.
 
-28. In nature, these two movements are not executed one after the other; they are simultaneous, or rather they form only one, which is the compound of these two. But, as we only consider an infinitely small time {dt}, the two spaces that any point of the body tends to describe by virtue of the two rotations {θ sin i} and {θ cos i} are considered rectilinear, like the two sides of a parallelogram: and this point being carried first along one of these sides, and then along a line equal and parallel to the other, it is then found at the end of the diagonal, that is to say, at the same place in space where it would have arrived by its natural movement following this diagonal. If we therefore imagine that this double operation, which I have just described, is repeated for each infinitely small part {dt} of time {t}, we will have the sequence of places where the body passes during its rotation, or the faithful image of its movement in space.
+28. In nature, these two movements are not executed one after the other; they are simultaneous, or rather they form only one, which is the compound of these two. But, as we only consider an infinitely small time `dt`, the two spaces that any point of the body tends to describe by virtue of the two rotations `θ sin i` and `θ cos i` are considered rectilinear, like the two sides of a parallelogram: and this point being carried first along one of these sides, and then along a line equal and parallel to the other, it is then found at the end of the diagonal, that is to say, at the same place in space where it would have arrived by its natural movement following this diagonal. If we therefore imagine that this double operation, which I have just described, is repeated for each infinitely small part `dt` of time `t`, we will have the sequence of places where the body passes during its rotation, or the faithful image of its movement in space.
 
 But, if one were simply asked to mark the place where the body will be after any given time, without concerning oneself with the path that the body
 
@@ -2439,7 +2439,7 @@ In this case, only the ordinary rules of integral calculus are needed to determi
 ### Page 119
 
 and then, to rotate it around its singular axis `OT`, by an angle `τ` equal to `∫ from {0} to {t} sin i dt`. Now, in the case of `h = b`, we found, for the expression of `θ sin i` as a function of `t`,
-`θ sin i = {2 n} over {k} {e^{{nt} over {k}}} over {1 + e^{{2nt} over {k}}}`
+`θ sin i = {{2 n} over {k}} cdot {{e^{{nt} over {k}}} over {1 + e^{{2nt} over {k}}}}`
 
 where `e` denotes the base of Naperian logarithms, and `n` the value of the radical `sqrt{B^2 - b^2}`. Multiplying this expression of `θ sin i` by `dt`, integrating, and making the arc `τ` start with time `t`, we have
 `τ = 2 (arc tang e^{{nt} over {k}} - {π} over 4)`
@@ -2958,48 +2958,52 @@ therefore, by substituting these values, we will have
 `v_a {d v_a} over {d t} = - {1} over {k sqrt{n}} sqrt{(a^2 - v_a^2) [n (β^2 - a^2) - (a^2 - v_a^2)] [(a^2 - v_a^2) + n (a^2 - γ^2)]}`
 
 Now, as we have for the expression of `d π_a over dt`,
-`{d π_a} over {d t} = {a^2} over {k h} {h^2 - (a^2 - v_a^2)} over {v_a^2}`
+`{{d π_a} over {dt}} = {{a^2} over {k h}} cdot {{h^2 - (a^2 - v_a^2)} over {v_a^2}}`
 
 we will have, by dividing this equation by the preceding one,
-`{d π_a} over {d v_a} = - {a^2 sqrt{n}} over {h} {v_a^2 - a^2 + h^2} over {v_a sqrt{(v_a^2 - a^2) [v_a^2 - a^2 + n (β^2 - a^2)] [v_a^2 - a^2 + n (γ^2 - a^2)]}}`
+`{{d π_a} over {d v_a}} = - {{a^2 sqrt{n}} over {h}} cdot {{v_a^2 - a^2 + h^2} over {v_a sqrt{(v_a^2 - a^2) [v_a^2 - a^2 + n (β^2 - a^2)] [v_a^2 - a^2 + n (γ^2 - a^2)]}}}`
 
 ### Page 139
 
 132
 
-which is, between the radius vector {v_a} and the angle {π_a} it describes on the fixed plane of the impulse couple, the sought equation of the curve {σ_a}.
-Similarly, one would find the polar equations of the other two curves {σ_b}, {σ_c}, described on the same plane by the projections of the two poles B and C of the central ellipsoid: it would suffice to change {a} to {b}, and {a} to {c} in the preceding equation, but with the caution of making the same change in the expression for the number {n}, which being here,
+which is, between the radius vector `v_a` and the angle `π_a` it describes on the fixed plane of the impulse couple, the sought equation of the curve `σ_a`.
+Similarly, one would find the polar equations of the other two curves `σ_b`, `σ_c`, described on the same plane by the projections of the two poles B and C of the central ellipsoid: it would suffice to change `a` to `b`, and `a` to `c` in the preceding equation, but with the caution of making the same change in the expression for the number `n`, which being here,
 
-for {σ_a},
+for `σ_a`,
+
 `n = {a^2 h^2} over {(a^2 - b^2) (a^2 - c^2)}`
 
-would be for {σ_b},
+would be for `σ_b`,
+
 `n = {b^2 h^2} over {(a^2 - b^2) (b^2 - c^2)}`
 
-and for {σ_c},
+and for `σ_c`,
+
 `n = {c^2 h^2} over {(b^2 - c^2) (a^2 - c^2)}`
 
-Of the three curves {σ_a}, {σ_b}, {σ_c} described on the fixed plane by the three points where the axes of the body will intersect this plane.
+Of the three curves `σ_a`, `σ_b`, `σ_c` described on the fixed plane by the three points where the axes of the body will intersect this plane.
 
-64. If, instead of the curve {σ_a}, described by the projection of pole A, one wanted to consider the curve {σ_a'} traced by the point A' where the extended axis {a} intersects the plane of the couple, it is clear that by naming {v_a'} the radius vector of this new curve {σ_a'}, one would first have, between {v_a} and {v_a'}, this relation
+64. If, instead of the curve `σ_a`, described by the projection of pole A, one wanted to consider the curve `σ_a'` traced by the point A' where the extended axis `a` intersects the plane of the couple, it is clear that by naming `v_a'` the radius vector of this new curve `σ_a'`, one would first have, between `v_a` and `v_a'`, this relation
 
 (R)
+
 `v_a^2 = {a^2 v_a'^2} over {h^2 + v_a'^2}`
 
-Now, these two radius vectors {v_a} and {v_a'} always being in the same direction, it is evident that the angular motion of the radius {v_a'} is perfectly equal to that of the radius {v_a}, and that, consequently, to obtain the angular velocity `{d π_a'}` over `{dt}` of the radius {v_a'}, it suffices to substitute, in the preceding expression for `{d π_a}` over `{dt}`, instead of {v_a}, its value in {v_a'} given above. We will thus immediately have the equation
+Now, these two radius vectors `v_a` and `v_a'` always being in the same direction, it is evident that the angular motion of the radius `v_a'` is perfectly equal to that of the radius `v_a`, and that, consequently, to obtain the angular velocity `{{d π_a'} over {dt}}` of the radius `v_a'`, it suffices to substitute, in the preceding expression for `{{d π_a} over {dt}}`, instead of `v_a`, its value in `v_a'` given above. We will thus immediately have the equation
 
-`{d π_a'} over {dt} = {h} over {k} {v_a^2 + h^2 - a^2} over {v_a^2}`
+`{{d π_a'} over {dt}} = {{h} over {k}} cdot {{v_a^2 + h^2 - a^2} over {v_a^2}}`
 
-Now, to obtain the polar equation of this new herpolhode {σ_a'}, one would have to find the expression for `{d v_a'}` over `{dt}` as a function of {v_a'}. Now, differentiating equation (R) first gives
+Now, to obtain the polar equation of this new herpolhode `σ_a'`, one would have to find the expression for `{{d v_a'} over {dt}}` as a function of `v_a'`. Now, differentiating equation (R) first gives
 
-`{d v_a'} over {dt} = {(h^2 + v_a'^2)^{3/2}} over {a h^2} {d v_a} over {dt}`
+`{{d v_a'} over {dt}} = {{(h^2 + v_a'^2)^{3/2}} over {a h^2}} cdot {{d v_a} over {dt}}`
 
-it only remains to find the factor `{d v_a}` over `{dt}` as a function of the radius {v_a'}.
+it only remains to find the factor `{{d v_a} over {dt}}` as a function of the radius `v_a'`.
 
 ### Page 140
 
-We found earlier that `{dv_a} over {dt}` is a function of the radius `{v_a}`; and this, by equation (R), is given in `{v_a}'`: thus, by making these substitutions, we will have the expression for `{dv_a'} over {dt}` as a function of the radius vector `{v_a}'`.
-So finally, if we divide the expression `{d π_a} over {dt}` by that of `{dv_a'} over {dt}`, we will get
+We found earlier that `{{d v_a} over {dt}}` is a function of the radius `{v_a}`; and this, by equation (R), is given in `{v_a}'`: thus, by making these substitutions, we will have the expression for `{{d v_a'} over {dt}}` as a function of the radius vector `{v_a}'`.
+So finally, if we divide the expression `{d π_a} over {dt}` by that of `{{d v_a'} over {dt}}`, we will get
 `{d π_a} over {dv_a'} =` function of `{v_a}'`,
 which will give the polar equation of the curve `{σ_a}'`.
 
@@ -3010,7 +3014,7 @@ The other two curves `{σ_b}`, `{σ_c}` would be found by simply changing `{a}` 
 
 For each of the other two, it does indeed touch, by the lower vertices of its waves, a circle circumference of finite radius, but it will carry its upper vertices onto a circle of infinite radius. This is easy to recognize by simply comparing the radius vector `{v_a}` to the radius vector `{v_a}'`.
 
-66 By the two variables `{ π_a}` and `{v_a}`, determined as functions of time `{t}`, we would have the projection of pole `{A}` onto the fixed plane, and as the height of this point above the plane is expressed by `sqrt{a^2 - v_a^2}`, we would know the position of pole `{A}` in absolute space: and similarly for the other two poles `{B}` and `{C}` of the body. But the integration of these expressions `{d π_a} over {dt}` and `{dv_a} over {dt}` has the same difficulties and requires the use of the same elliptic functions as the preceding `{d φ} over {dt}`, `{d θ} over {dt}`, relative to the instantaneous pole `{I}` of rotation. Etc. Etc.
+66 By the two variables `{ π_a}` and `{v_a}`, determined as functions of time `{t}`, we would have the projection of pole `{A}` onto the fixed plane, and as the height of this point above the plane is expressed by `sqrt{a^2 - v_a^2}`, we would know the position of pole `{A}` in absolute space: and similarly for the other two poles `{B}` and `{C}` of the body. But the integration of these expressions `{d π_a} over {dt}` and `{{d v_a} over {dt}}` has the same difficulties and requires the use of the same elliptic functions as the preceding `{{d φ} over {dt}}`, `{{d θ} over {dt}}`, relative to the instantaneous pole `{I}` of rotation. Etc. Etc.
 
 67. But I will not go further into these details: our main goal here was to clearly demonstrate our new theory of the rotation of bodies, and to elevate it, if possible, to a degree of clarity that would place it among elementary theories. And it seems to me that, by the new theorems and the varied images that precede, this important objective has been entirely fulfilled.
 

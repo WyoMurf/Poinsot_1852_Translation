@@ -1,12 +1,14 @@
 import uno, re, os, subprocess, time
 from com.sun.star.awt import Size
+from com.sun.star.style import LineSpacing, LineSpacingMode
 
 CENTER = uno.Enum('com.sun.star.style.ParagraphAdjust', 'CENTER')
 LEFT = uno.Enum('com.sun.star.style.ParagraphAdjust', 'LEFT')
 ITALIC = uno.Enum('com.sun.star.awt.FontSlant', 'ITALIC')
 NONE = uno.Enum('com.sun.star.awt.FontSlant', 'NONE')
+AS_CHAR = uno.Enum('com.sun.star.text.TextContentAnchorType', 'AS_CHARACTER')
 
-PORT = 2025
+PORT = 2035
 soffice_cmd = [
     '/opt/libreoffice26.2/program/soffice',
     '--headless',
@@ -32,7 +34,11 @@ try:
     text = doc.getText()
     cursor = text.createTextCursor()
 
-    with open('/home/murf/Poinsot_Translation.md', 'r', encoding='utf-8') as f:
+    # Set default paragraph style properties
+    ls_prop = LineSpacing(Mode=LineSpacingMode.PROP, Height=115)
+
+    md_file = '/home/murf/Poinsot_Translation/Poinsot_Translation.md'
+    with open(md_file, 'r', encoding='utf-8') as f:
         content = f.read()
 
     paragraphs = content.split('\n\n')
@@ -40,7 +46,6 @@ try:
     print(f"Total paragraphs to process: {total}")
 
     MATH_CLSID = '078B7ABA-54FC-457F-8551-6147E776A997'
-    AS_CHAR = uno.Enum('com.sun.star.text.TextContentAnchorType', 'AS_CHARACTER')
     MATH_OPS = ['=', '+', '-', '*', '/', 'over', 'sqrt', 'int', '∫', '^', '_', 'sum', 'sin', 'cos', 'cdot', 'times', '+-', '<', '>', '{', '}']
 
     def is_math_formula(expr):
@@ -56,13 +61,17 @@ try:
             f_obj.AnchorType = AS_CHAR
             text.insertTextContent(cursor, f_obj, False)
             f_obj.Model.Formula = expr
+            # Apply true visual geometry so fractions are not compressed vertically!
+            vis = f_obj.Model.getVisualAreaSize(1)
+            if vis.Width > 0 and vis.Height > 0:
+                f_obj.setSize(vis)
         except Exception:
             cursor.CharPosture = ITALIC
             text.insertString(cursor, expr, False)
             cursor.CharPosture = NONE
 
     def insert_image(cursor, rel_path, caption=""):
-        full_path = os.path.abspath(os.path.join('/home/murf', rel_path))
+        full_path = os.path.abspath(os.path.join('/home/murf/Poinsot_Translation', rel_path))
         if not os.path.exists(full_path):
             print(f"Warning: Image not found: {full_path}")
             return
@@ -139,7 +148,7 @@ try:
             cursor.ParaAdjust = LEFT
             continue
 
-        # Check if entire paragraph consists purely of display formula lines
+        # Display formula paragraph
         lines_in_p = [l.strip() for l in p.split('\n') if l.strip()]
         is_display_para = all(
             bool(re.match(r'^(`[^`]+`(\s*,\s*`[^`]+`)*|\s*`[^`]+`\s*)+$', l))
@@ -149,6 +158,8 @@ try:
         if is_display_para:
             cursor.ParaStyleName = 'Text body'
             cursor.ParaAdjust = CENTER
+            cursor.ParaTopMargin = 300    # 3mm padding above display equations
+            cursor.ParaBottomMargin = 300 # 3mm padding below display equations
             for l in lines_in_p:
                 formula_blocks = re.findall(r'`([^`]+)`', l)
                 for f_idx, fb in enumerate(formula_blocks):
@@ -156,11 +167,14 @@ try:
                         text.insertString(cursor, ',   ', False)
                     insert_formula_object(cursor, fb)
                 text.insertString(cursor, '\n', False)
+            cursor.ParaTopMargin = 0
+            cursor.ParaBottomMargin = 0
             cursor.ParaAdjust = LEFT
             continue
 
         # Regular text paragraph with inline math
         cursor.ParaStyleName = 'Text body'
+        cursor.ParaLineSpacing = ls_prop
         parts = re.split(r'(`[^`]+`)', p)
         for part in parts:
             if part.startswith('`') and part.endswith('`'):
@@ -179,7 +193,7 @@ try:
     print(f"All paragraphs processed in {time.time()-t0:.1f}s. Unlocking controllers...")
     doc.unlockControllers()
 
-    out_file = '/home/murf/Poinsot_Translation.odt'
+    out_file = '/home/murf/Poinsot_Translation/Poinsot_Translation.odt'
     print(f"Saving final document to {out_file}...")
     t_save = time.time()
     out_url = uno.systemPathToFileUrl(os.path.abspath(out_file))
